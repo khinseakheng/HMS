@@ -40,6 +40,7 @@
             this.serviceModule1 = new Hospital_Management_System.ServiceModule();
             this.medicineModule1 = new Hospital_Management_System.MedicineModule();
             this.mecCategory1 = new Hospital_Management_System.MecCategory();
+            this.doctorSchedule1 = new Hospital_Management_System.DoctorSchedule();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,6 +66,7 @@
             this.btSchedule.TabIndex = 5;
             this.btSchedule.Text = "Doctor Schedule";
             this.btSchedule.UseVisualStyleBackColor = true;
+            this.btSchedule.Click += new System.EventHandler(this.btSchedule_Click);
             // 
             // btService
             // 
@@ -151,10 +153,18 @@
             this.mecCategory1.Size = new System.Drawing.Size(834, 554);
             this.mecCategory1.TabIndex = 6;
             // 
+            // doctorSchedule1
+            // 
+            this.doctorSchedule1.Location = new System.Drawing.Point(163, 4);
+            this.doctorSchedule1.Name = "doctorSchedule1";
+            this.doctorSchedule1.Size = new System.Drawing.Size(834, 554);
+            this.doctorSchedule1.TabIndex = 7;
+            // 
             // MasterEntry
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.doctorSchedule1);
             this.Controls.Add(this.mecCategory1);
             this.Controls.Add(this.medicineModule1);
             this.Controls.Add(this.panel1);
@@ -182,5 +192,6 @@
         private ServiceModule serviceModule1;
         private MedicineModule medicineModule1;
         private MecCategory mecCategory1;
+        private DoctorSchedule doctorSchedule1;
     }
 }

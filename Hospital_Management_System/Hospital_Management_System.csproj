@@ -55,6 +55,12 @@
     <Compile Include="DoctorModule.Designer.cs">
       <DependentUpon>DoctorModule.cs</DependentUpon>
     </Compile>
+    <Compile Include="DoctorSchedule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DoctorSchedule.Designer.cs">
+      <DependentUpon>DoctorSchedule.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +144,9 @@
     </Compile>
     <EmbeddedResource Include="DoctorModule.resx">
       <DependentUpon>DoctorModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorSchedule.resx">
+      <DependentUpon>DoctorSchedule.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>

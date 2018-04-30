@@ -42,5 +42,10 @@ namespace Hospital_Management_System
         {
             mecCategory1.BringToFront();
         }
+
+        private void btSchedule_Click(object sender, EventArgs e)
+        {
+            doctorSchedule1.BringToFront();
+        }
     }
 }
